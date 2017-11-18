@@ -22,7 +22,9 @@
                     style="@style/QuestionsTextStyle"
                     android:text="@string/question_1" />
 
-                <RadioGroup style="@style/RadioGroupStyle">
+                <RadioGroup
+                    android:id="@+id/rg_1"
+                    style="@style/RadioGroupStyle">
 
                     <RadioButton
                         style="@style/OptionsTextStyle"
@@ -37,6 +39,7 @@
                         android:text="@string/question_1_option_3" />
 
                     <RadioButton
+                        android:id="@+id/question_1_answer"
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_1_right_answer" />
                 </RadioGroup>
@@ -48,7 +51,9 @@
                     style="@style/QuestionsTextStyle"
                     android:text="@string/question_2" />
 
-                <RadioGroup style="@style/RadioGroupStyle">
+                <RadioGroup
+                    android:id="@+id/rg_2"
+                    style="@style/RadioGroupStyle">
 
                     <RadioButton
                         style="@style/OptionsTextStyle"
@@ -59,6 +64,7 @@
                         android:text="@string/question_2_option_2" />
 
                     <RadioButton
+                        android:id="@+id/question_2_answer"
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_2_right_answer" />
 
@@ -74,13 +80,16 @@
                     style="@style/QuestionsTextStyle"
                     android:text="@string/question_3" />
 
-                <RadioGroup style="@style/RadioGroupStyle">
+                <RadioGroup
+                    android:id="@+id/rg_3"
+                    style="@style/RadioGroupStyle">
 
                     <RadioButton
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_3_option_1" />
 
                     <RadioButton
+                        android:id="@+id/question_3_answer"
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_3_right_answer" />
 
@@ -101,7 +110,9 @@
                     style="@style/QuestionsTextStyle"
                     android:text="@string/question_4" />
 
-                <RadioGroup style="@style/RadioGroupStyle">
+                <RadioGroup
+                    android:id="@+id/rg_4"
+                    style="@style/RadioGroupStyle">
 
                     <RadioButton
                         style="@style/OptionsTextStyle"
@@ -112,6 +123,7 @@
                         android:text="@string/question_4_option_2" />
 
                     <RadioButton
+                        android:id="@+id/question_4_answer"
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_4_right_answer" />
 
@@ -128,13 +140,16 @@
                     style="@style/QuestionsTextStyle"
                     android:text="@string/question_5" />
 
-                <RadioGroup style="@style/RadioGroupStyle">
+                <RadioGroup
+                    android:id="@+id/rg_5"
+                    style="@style/RadioGroupStyle">
 
                     <RadioButton
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_5_option_1" />
 
                     <RadioButton
+                        android:id="@+id/question_5_answer"
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_5_right_answer" />
 
@@ -155,7 +170,9 @@
                     style="@style/QuestionsTextStyle"
                     android:text="@string/question_6" />
 
-                <RadioGroup style="@style/RadioGroupStyle">
+                <RadioGroup
+                    android:id="@+id/rg_6"
+                    style="@style/RadioGroupStyle">
 
                     <RadioButton
                         style="@style/OptionsTextStyle"
@@ -166,6 +183,7 @@
                         android:text="@string/question_6_option_2" />
 
                     <RadioButton
+                        android:id="@+id/question_6_answer"
                         style="@style/OptionsTextStyle"
                         android:text="@string/question_6_right_answer" />
 
@@ -183,18 +201,22 @@
                     android:text="@string/question_7" />
 
                 <CheckBox
+                    android:id="@+id/question_7_answer_1"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_7_right_answer_1" />
 
                 <CheckBox
+                    android:id="@+id/question_7_wrong_answer"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_7_option_1" />
 
                 <CheckBox
+                    android:id="@+id/question_7_answer_2"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_7_right_answer_2" />
 
                 <CheckBox
+                    android:id="@+id/question_7_answer_3"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_7_right_answer_3" />
 
@@ -207,18 +229,22 @@
                     android:text="@string/question_8" />
 
                 <CheckBox
+                    android:id="@+id/question_8_wrong_answer"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_8_option_1" />
 
                 <CheckBox
+                    android:id="@+id/question_8_answer_1"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_8_right_answer_1" />
 
                 <CheckBox
+                    android:id="@+id/question_8_answer_2"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_8_right_answer_2" />
 
                 <CheckBox
+                    android:id="@+id/question_8_answer_3"
                     style="@style/OptionsTextStyle"
                     android:text="@string/question_8_right_answer_3" />
             </LinearLayout>
@@ -230,6 +256,7 @@
                     android:text="@string/question_9" />
 
                 <EditText
+                    android:id="@+id/question_9_edittext"
                     style="@style/QuestionsTextStyle"
                     android:layout_width="match_parent" />
 
@@ -242,6 +269,7 @@
                     android:text="@string/question_10" />
 
                 <EditText
+                    android:id="@+id/question_10_edittext"
                     style="@style/QuestionsTextStyle"
                     android:layout_width="match_parent" />
 
@@ -249,6 +277,7 @@
 
             <Button
                 style="@style/ButtonStyle"
+                android:onClick="showResult"
                 android:text="@string/submit" />
         </LinearLayout>
     </LinearLayout>

@@ -46,5 +46,10 @@
     <string name="question_10"> 10.哪种茶的发酵程度为0%？</string>
     <string name="question_10_right_answer">绿茶</string>
     <string name="submit">提交答案</string>
-    <string name="result">你的分数是：</string>
+    <string name="result_title">你对茶文化的了解程度是：</string>
+    <string name="result_worst">一无所知</string>
+    <string name="result_not_so_good">略知一二</string>
+    <string name="result_not_bad">有所了解</string>
+    <string name="result_good">出类拔萃</string>
+    <string name="result_excellent">如数家珍</string>
 </resources>

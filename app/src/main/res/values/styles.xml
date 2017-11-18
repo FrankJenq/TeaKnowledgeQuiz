@@ -5,14 +5,15 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#4CAF50</item>
         <item name="colorPrimaryDark">#388E3C</item>
-        <item name="colorAccent">#FF5722</item>
+        <item name="colorAccent">#8BC34A</item>
+        <item name="colorButtonNormal">#8BC34A</item>
     </style>
 
     <style name="MainLayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:layout_marginBottom">60dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">20dp</item>
     </style>
@@ -52,6 +53,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 
 </resources>
