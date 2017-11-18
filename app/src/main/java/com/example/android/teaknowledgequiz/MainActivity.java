@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Show how much the answer knows about tea culture according to the answers he gives.
+     * Show how much you knows about tea culture according to the answers you give.
      *
      * @param view
      */
